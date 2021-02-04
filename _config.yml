@@ -1,10 +1,7 @@
-title: BIG CODING BLOG. 
-author: Your Mother. 
+title: BIG CODING BLOG, ITS UPPERCASED BECAUSE ITS AMAZING.  
+author: ME (ERIC, the cool epic and amazing dude!!)  
 email: ericjlindburg@students.k12.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > big amazing coding blofg!!
 
 # social links
 twitter_username: no. lol. # DO NOT include the @ character, or else the build will fail!
