@@ -73,3 +73,17 @@ All of these chunks of code work together to effectively create the website. Whe
 After discussing all of this Frontend Development, it's obvious what I'll work towards next! Backend Development! Backend Development deals with the stuff that the user doesn't see, and instead deals with what the client/server/computer will see! It's the exact opposite of Frontend Development, ying and yang if you think about it. Both are needed, and both are exact opposites of one another. 
 
 In the end, I learned how to write code to effectively create user interfaces and other interactive items on websites- also known as Frontend Development. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Blog Post #2
+
+*"How does data flow from our computers to the drone? Describe each step of the process."* 
+
+The computer flow is something like this:
+
+Computer --> Internet --> Drones Access Port --> Internals (Drones Computer)
+
+This is of course simplified. There's a million other things that the code most likely goes through before it actually hits the center of the drones stuffs. I shall now describe it more! It'll still be simplified though. 
+
+The computer sends information from the program that we use (terminal and packet sender) through its own systems and then through its own exit ports. This stuff is basically shot out like a machine gun thanks to the UDP protocol we use. It finds the fastest way, but some data might be lost. This fast method allows for us to maintain a constant stream of commands to the drone, which is sent through its access port and stuff and then to its inner-workings. These inner-workings process the command and then act on the data from the command. THEN, the drone sends a checksum or something of that sort back to our computer. telling us that our command has been acknowledged. 
