@@ -1,3 +1,0 @@
-# Drone Backend Blog Post
-
-
